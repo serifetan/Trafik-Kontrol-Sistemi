@@ -1,0 +1,29 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#anchorPane{
+    -fx-background-image: url("way.png");
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center center;
+    -fx-background-size: cover;
+	-fx-effect: dropshadow(three-pass-box, black, 30.0, 0.5, 0.0, 0.0);      
+}
+#pane{
+    -fx-background-color:  #FFFFFF;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0), 5, 0, 0, 0);
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+}
+#tab{
+    -fx-padding: 5 5 5 5;
+    -fx-border-radius: 5 5 5 5;
+    -fx-background-radius: 5 5 5 5;
+    -fx-background-color: #4CAF50;
+    -fx-pref-width: 130;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-insets: 0 0 0 0, 0, 1, 2;
+}
+#tabpane{
+    -fx-background-color: #FFFFFF;
+}
+
